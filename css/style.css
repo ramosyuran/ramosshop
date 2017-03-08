@@ -4,14 +4,14 @@ body{
   margin: 0;
   padding: 0;
   font-family: georgia sans-serif;
+  width: 100%;
+  background: #f1faee;
 }
 
 /*header*/
 
 header{
-  width: 100%;
-  max-width: 1400px;
-  height: auto;
+  /*max-width: 1350px;*/
   background: #1d3557;
   padding: 0.1em;
 }
@@ -40,4 +40,9 @@ header figure{
 header img{
   width: 50px;
   margin: auto 20%;
+}
+
+.back{
+  background: #337ca0;
+  height: 200px;
 }
