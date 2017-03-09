@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: georgia sans-serif;
-  width: 100%;
+  /*width: 100%;*/
   background: #f1faee;
 }
 
@@ -14,6 +14,14 @@ header{
   /*max-width: 1350px;*/
   background: #1d3557;
   /*padding: 0.1em;*/
+}
+
+header span{
+  color: #e63946;
+}
+
+header span:hover{
+  color: #f1faee;
 }
 
 header a{
@@ -53,4 +61,50 @@ header input[type="text"]{
   width: 20%;
   float: right;
   margin: 2em 4em;
+}
+
+/*section*/
+
+section{
+  height: 500px;
+  margin: 0 6em;
+  text-align: center;
+  /*float: right;*/
+  border: #f1faee solid;
+}
+
+ section img{
+   width: 100%;
+   margin: 0;
+ }
+
+section ul{
+  /*padding: 1em;*/
+}
+
+section span{
+  color: #e63946;
+  font-weight: bold;
+  text-align: left;
+}
+
+section li{
+  text-align: left;
+  padding: 0.5em;
+  list-style: none;
+}
+
+ /*section figure{
+   margin: 0;
+ }*/
+
+ .product1, .product2, .product3{
+  margin: 2em;
+  padding: 1em;
+  height: 350px;
+  width: 20%;
+  display: inline-block;
+  border: 1px #f1faee solid;
+  border-radius: 10%;
+  /*float: right;*/
 }
