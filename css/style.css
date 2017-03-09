@@ -109,11 +109,13 @@ section{
 
 /*products*/
 
-h2, .hp img, .hp p{
-  /*width: 100%*/
-  /*display: inline-block;*/
+.products img{
+  width: 200px;
+  margin: auto 3em auto auto;
+  position: relative;
 }
 
-.products img{
-  width: 50px;
+.hp, .toshiba, .dell, .macbook  {
+  border-bottom: 1px #1d3557 solid;
+  border-radius: 1%;
 }
