@@ -18,10 +18,7 @@ header{
 
 header span{
   color: #e63946;
-}
-
-header span:hover{
-  color: #f1faee;
+  border-bottom: 2px #e63946 solid;
 }
 
 header a{
@@ -68,19 +65,21 @@ header input[type="text"]{
 /*section*/
 
 section{
-  height: 500px;
-  margin: 0 6em;
+  margin: 0 5em;
+}
+
+section .index{
   text-align: center;
-  /*float: right;*/
   border: #f1faee solid;
+  height: 500px;
 }
 
  section img{
-   width: 250px;
+   width: 200px;
    margin: 0;
  }
 
-section ul{
+.product1 ul{
   text-align: left;
   margin-top: 3em;
 }
@@ -96,10 +95,6 @@ section li{
   padding: 0.5em;
   list-style: none;
 }
-
- /*section figure{
-   margin: 0;
- }*/
 
  .product1, .product2, .product3{
   margin: 2em;
