@@ -115,7 +115,20 @@ section{
   position: relative;
 }
 
-.hp, .toshiba, .dell, .macbook  {
+.vente{
   border-bottom: 1px #1d3557 solid;
   border-radius: 1%;
+}
+
+.lastvente{
+  border-bottom: 3px #1d3557 solid;
+  border-radius: 1%;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 18px;
 }
