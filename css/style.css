@@ -68,29 +68,30 @@ section{
   margin: 0 5em;
 }
 
-section .index{
-  text-align: center;
+.index{
   border: #f1faee solid;
-  height: 500px;
+  height: 500px;text-align: center;
+  margin: 4em 2em;
 }
 
- section img{
+ .index img{
    width: 200px;
    margin: 0;
  }
 
-.product1 ul{
+.index ul{
   text-align: left;
   margin-top: 3em;
 }
 
-section span{
+.index span, .products h1{
   color: #e63946;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
 }
 
-section li{
+.index li, .products li{
   text-align: left;
   padding: 0.5em;
   list-style: none;
@@ -104,5 +105,15 @@ section li{
   display: inline-block;
   border: 1px #f1faee solid;
   border-radius: 10%;
-  /*float: right;*/
+}
+
+/*products*/
+
+h2, .hp img, .hp p{
+  /*width: 100%*/
+  /*display: inline-block;*/
+}
+
+.products img{
+  width: 50px;
 }
