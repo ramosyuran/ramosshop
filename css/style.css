@@ -32,7 +32,7 @@ header a{
 }
 
 header a:hover{
-  color: #e63946;
+  color: #1d3557;
 }
 
 
@@ -64,6 +64,8 @@ header input[type="text"]{
   width: 20%;
   float: right;
   margin: 2em 4em;
+  box-shadow: 1px 1px 1px #e63946;
+  /*border: 1px #1d3557 solid;*/
 }
 
 /*section*/
@@ -152,9 +154,9 @@ article a{
 }
 
 article span{
-  color: #e63946;
+  font-size: 20px;
 }
 
 article a:hover{
-  background-color: #D62B39;
+  background-color: #e63946;
 }
