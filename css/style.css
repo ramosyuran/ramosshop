@@ -74,18 +74,19 @@ section{
 }
 
  section img{
-   width: 100%;
+   width: 250px;
    margin: 0;
  }
 
 section ul{
-  /*padding: 1em;*/
+  text-align: left;
+  margin-top: 3em;
 }
 
 section span{
   color: #e63946;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 section li{
