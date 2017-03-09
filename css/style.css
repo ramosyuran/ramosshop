@@ -27,11 +27,13 @@ header span:hover{
 header a{
   color: #f1faee;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 header a:hover{
   color: #e63946;
 }
+
 
 header li{
   list-style: none;
