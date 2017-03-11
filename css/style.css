@@ -76,7 +76,8 @@ section{
 
 .index{
   border: #f1faee solid;
-  height: 500px;text-align: center;
+  height: 500px;
+  text-align: center;
   margin: 4em 2em;
 }
 
@@ -94,14 +95,15 @@ section a{
   text-decoration: none;
 }
 
-.index span, .products h1{
+.index span, h1{
   color: #e63946;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  font-size: 25px;
 }
 
-.index li, .products li{
+.index li{
   text-align: left;
   padding: 0.5em;
   list-style: none;
@@ -116,8 +118,6 @@ section a{
   border: 1px #f1faee solid;
   border-radius: 10%;
 }
-
-/*products*/
 
 .products img{
   width: 200px;
@@ -136,15 +136,11 @@ section a{
   margin: 2em auto;
 }
 
-h1{
-  font-size: 25px;
-}
-
 h2{
   font-size: 18px;
 }
 
-article a{
+.vente a, .lastvente a{
   background: #388697;
   width: 15%;
   text-align: center;
@@ -161,8 +157,16 @@ article span{
   font-size: 20px;
 }
 
-article a:hover{
+.vente a:hover{
   background-color: #e63946;
+}
+
+.lastvente a:hover{
+  background-color: #e63946;
+}
+
+.title p{
+  text-align: center;
 }
 
 /*footer*/
