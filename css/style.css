@@ -169,6 +169,34 @@ article span{
   text-align: center;
 }
 
+.contact{
+  margin: auto 20em;
+  text-align: justify;
+}
+
+.contact a{
+  color: #1d3557;
+}
+
+.contact a:hover{
+  text-decoration: underline;
+}
+
+h3, button{
+  text-align: center;
+  background: #1d3557;
+  color: #f1faee;
+  border: none;
+}
+
+button{
+  width: 20%;
+  height: 25px;
+}
+
+.form input[type="question"]{
+height: 80px;
+}
 /*footer*/
 
 footer{
