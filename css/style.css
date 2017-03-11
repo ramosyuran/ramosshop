@@ -140,7 +140,7 @@ h2{
   font-size: 18px;
 }
 
-.vente a, .lastvente a{
+.vente a, .lastvente a, .lastventelast a{
   background: #388697;
   width: 15%;
   text-align: center;
@@ -162,6 +162,10 @@ article span{
 }
 
 .lastvente a:hover{
+  background-color: #e63946;
+}
+
+.lastventelast a:hover{
   background-color: #e63946;
 }
 
