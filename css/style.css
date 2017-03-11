@@ -90,6 +90,10 @@ section{
   margin-top: 3em;
 }
 
+section a{
+  text-decoration: none;
+}
+
 .index span, .products h1{
   color: #e63946;
   font-weight: bold;
