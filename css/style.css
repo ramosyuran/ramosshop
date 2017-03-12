@@ -97,6 +97,10 @@ section a{
   font-size: 25px;
 }
 
+.index span:hover{
+  text-decoration: underline;
+}
+
 .index li{
   text-align: left;
   padding: 0.5em;
