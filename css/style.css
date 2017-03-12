@@ -4,7 +4,6 @@ body{
   margin: 0;
   padding: 0;
   font-family: georgia;
-  /*width: 100%;*/
   background: #f1faee;
   color: #1d3557;
 }
@@ -12,11 +11,8 @@ body{
 /*header*/
 
 header{
-  /*max-width: 1350px;*/
-  /*background: #1d3557;*/
   border-bottom: 3px #1d3557 solid;
   border-radius: 10%;
-  /*padding: 0.1em;*/
 }
 
 header span{
@@ -25,7 +21,6 @@ header span{
 }
 
 header a{
-  /*color: #f1faee;*/
   color: #e63946;
   text-decoration: none;
   letter-spacing: 1px;
@@ -65,7 +60,6 @@ header input[type="text"]{
   float: right;
   margin: 2em 4em;
   box-shadow: 1px 1px 1px #e63946;
-  /*border: 1px #1d3557 solid;*/
 }
 
 /*section*/
@@ -173,8 +167,8 @@ article span{
   text-align: center;
 }
 
-.contact{
-  margin: auto 20em;
+.contact, .about{
+  margin: 2em 20em;
   text-align: justify;
 }
 
@@ -201,6 +195,7 @@ button{
 .form input[type="question"]{
 height: 80px;
 }
+
 /*footer*/
 
 footer{
