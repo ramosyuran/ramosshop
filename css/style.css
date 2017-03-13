@@ -138,11 +138,10 @@ h2{
   font-size: 18px;
 }
 
-.vente a, .lastvente a, .lastventelast a{
+.vente button, .lastvente button, .lastventelast button{
   background: #388697;
   width: 15%;
   text-align: center;
-  padding: 0.5em;
   color: #f1faee;
   border: #f1faee;
   border-radius: 5%;
@@ -155,15 +154,15 @@ article span{
   font-size: 20px;
 }
 
-.vente a:hover{
+.vente button:hover{
   background-color: #e63946;
 }
 
-.lastvente a:hover{
+.lastvente button:hover{
   background-color: #e63946;
 }
 
-.lastventelast a:hover{
+.lastventelast button:hover{
   background-color: #e63946;
 }
 
