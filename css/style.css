@@ -171,6 +171,14 @@ article span{
   text-align: center;
 }
 
+.cont a{
+  text-decoration: underline;
+}
+
+.cont a:hover{
+  color: #e63946;
+}
+
 .contact, .about{
   margin: 2em 20em;
   text-align: justify;
