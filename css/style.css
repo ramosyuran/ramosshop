@@ -12,7 +12,7 @@ body{
 
 header{
   border-bottom: 3px #1d3557 solid;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 header span{
@@ -72,7 +72,7 @@ section{
   border: #f1faee solid;
   height: 500px;
   text-align: center;
-  margin: 4em 2em;
+  margin: 2em 2em 4em 2em;
 }
 
  .index img{
