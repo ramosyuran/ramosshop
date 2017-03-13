@@ -125,12 +125,10 @@ section a{
 
 .vente{
   border-bottom: 1px #e63946 solid;
-  border-radius: 1%;
 }
 
 .lastvente{
   border-bottom: 3px #e63946 solid;
-  border-radius: 1%;
   margin: 2em auto;
 }
 
@@ -144,7 +142,7 @@ h2{
   text-align: center;
   color: #f1faee;
   border: #f1faee;
-  border-radius: 5%;
+  padding: 0.3em;
   text-decoration: none;
   display: inline-block;
   margin: auto auto 2em auto;
@@ -154,28 +152,12 @@ article span{
   font-size: 20px;
 }
 
-.vente button:hover{
-  background-color: #e63946;
-}
-
-.lastvente button:hover{
-  background-color: #e63946;
-}
-
-.lastventelast button:hover{
+.vente button:hover, .lastvente button:hover, .lastventelast button:hover{
   background-color: #e63946;
 }
 
 #subtitle{
   text-align: center;
-}
-
-.cont a{
-  text-decoration: underline;
-}
-
-.cont a:hover{
-  color: #e63946;
 }
 
 .contact, .about{
@@ -185,10 +167,12 @@ article span{
 
 .contact a{
   color: #1d3557;
+  text-decoration: underline;
 }
 
 .contact a:hover{
   text-decoration: underline;
+  color: #e63946;
 }
 
 h3, input[name="send"]{
@@ -203,7 +187,7 @@ input[name="send"]{
   height: 25px;
 }
 
-.form input[name="question"]{
+input[name="question"]{
 height: 80px;
 }
 
@@ -212,5 +196,5 @@ height: 80px;
 footer{
   text-align: center;
   border-top: 3px #1d3557 solid;
-  border-radius: 20%;
+  border-radius: 20px;
 }
